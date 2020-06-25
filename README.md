@@ -40,4 +40,4 @@ python main.py --training True
 python main.py --test True --batch_size 1
 ```
 
-We don't include the training data and the trained model in the submitted file since it takes too much space, we will upload it to the PKU disk and will share the link in the email.
+We don't include the training data and the trained model in the submitted file since it takes too much space, we will upload it to the PKU disk and will share the link in the email. If the TA wants to test the result, the data and trained model should be named correctly and be put under the right folder. If there is any question about testing the result, please contact us.
