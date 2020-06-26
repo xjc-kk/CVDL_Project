@@ -6,8 +6,11 @@ train example is shown in jupyter notebook file
 data and code working folder example:
 
   -Pix2Pix_for_edges2shoes.ipynb
+  
   -edges2shoes
+  
   --train
+  
   --val
 
 It will build save_models and images_wg folders and sample images and models automatically.
@@ -19,11 +22,17 @@ The CycleGAN-Unet file uses Unet as generator and the other uses Residualblocks 
 folder example:
 
   -CycleGAN-Unet.ipynb
+
   -CycleGAN.ipynb
+
   -Generate1
+
   --teA
+
   --teB
+  
   --trainA
+  
   --trainB
 
 note that we cut and process the edges2shoes data into Generate1 folder
