@@ -15,7 +15,7 @@ data and code working folder example:
 
 It will build save_models and images_wg folders and sample images and models automatically.
 
-### CycleGAN lsl test part
+### CycleGAN lsl part
 
 Train example is shown in jupyter notebook file
 The CycleGAN-Unet file uses Unet as generator and the other uses Residualblocks as generator 
