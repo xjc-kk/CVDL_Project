@@ -12,8 +12,27 @@ data and code working folder example:
   --train
   
   --val
-
+  
 It will build save_models and images_wg folders and sample images and models automatically.
+If you want to use models, please order the files as:
+  
+  -Pix2Pix_for_edges2shoes.ipynb
+  
+  -edges2shoes
+  
+  --train
+  
+  --val
+  
+  -save_models
+  
+  --Generate_1
+  
+  ---discriminator_80.pth
+  
+  ---generator_80.pth
+
+and in .ipynb, change epoch = 80, note that the suffix means the training epochs
 
 ### CycleGAN lsl part
 
@@ -37,7 +56,47 @@ folder example:
 
 note that we cut and process the edges2shoes data into Generate1 folder
 It will build save_models/save_models_U and images/images_U folders and sample images and models automatically.
+If you want to use models, please order the files as:
 
+  -CycleGAN-Unet.ipynb
+
+  -CycleGAN.ipynb
+
+  -Generate1
+
+  --teA
+
+  --teB
+  
+  --trainA
+  
+  --trainB
+  
+  -save_models
+  
+  --Generate1
+  
+  ---D_A_99.pth
+  
+  ---G_AB_99.pth
+  
+  ---D_B_99.pth
+  
+  ---G_BA_99.pth
+  
+  -saved_models_U
+  
+  --Generate1
+  
+  ---D_A_49.pth
+  
+  ---G_AB_49.pth
+  
+  ---D_B_49.pth
+  
+  ---G_BA_49.pth
+ and change the epoch in .ipynb to Corresponding epoch
+  
 ### CycleGAN
 
 main.py:  This is the main file for training or testing the model.
